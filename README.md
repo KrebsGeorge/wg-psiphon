@@ -8,8 +8,11 @@
      curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_arm64 && chmod +x /root/sbwpph
 
 调用示例
+
 ./sbwpph -b 127.0.0.1:2080 --cfon --country JP
+
 支持国家列表
+
 奥地利（AT）
 澳大利亚（AU）
 比利时（BE）
