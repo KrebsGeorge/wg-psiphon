@@ -1,8 +1,10 @@
 勇哥Sing-box-yg精装桶小白专享一键四协议共存脚本中提取
  #amd64
-   curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_amd64 && chmod +x /root/sbwpph
+     
+     curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_amd64 && chmod +x /root/sbwpph
 #arm64
-   curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_arm64 && chmod +x /root/sbwpph
+     
+     curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_arm64 && chmod +x /root/sbwpph
 
 调用示例
 ./sbwpph -b 127.0.0.1:2080 --cfon --country JP
