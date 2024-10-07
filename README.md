@@ -2,14 +2,18 @@
 
  #amd64
      
-     curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_amd64 && chmod +x /root/sbwpph
+     curl -L -o /root/wpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_amd64 && chmod +x /root/wpph
 #arm64
      
-     curl -L -o /root/sbwpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_arm64 && chmod +x /root/sbwpph
+     curl -L -o /root/wpph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/warp-psiphon/main/wpph_arm64 && chmod +x /root/wpph
 
 调用示例
 
-./sbwpph -b 127.0.0.1:2080 --cfon --country JP
+帮助
+
+./wpph -h
+
+./wpph -b 127.0.0.1:2080 --cfon --country JP
 
 支持国家列表
 
