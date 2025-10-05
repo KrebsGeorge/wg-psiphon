@@ -2,10 +2,10 @@
 
  #amd64
      
-     curl -L -o /root/wgph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/wg-psiphon/main/wgph_amd64 && chmod +x /root/wgph
+     wget https://raw.githubusercontent.com/KrebsGeorge/wg-psiphon/main/wgph_amd64 -O wgph && chmod +x wgph
 #arm64
      
-     curl -L -o /root/wgph -# --retry 2 --insecure https://raw.githubusercontent.com/KrebsGeorge/wg-psiphon/main/wgph_arm64 && chmod +x /root/wgph
+     wget https://raw.githubusercontent.com/KrebsGeorge/wg-psiphon/main/wgph_arm64 -O wgph&& chmod +x wgph
 
 调用示例
 
